@@ -1,5 +1,6 @@
 body {
 	background: black;
+	font-family: "Handlee", cursive;
 }
 /* * {
 	border: 1px dashed red;
@@ -25,6 +26,8 @@ body {
 }
 .postcard-body {
 	display: flex;
+	overflow: hidden;
+	height: 60%;
 }
 .body-left p:first-child {
 	margin-top: 0;
@@ -32,22 +35,23 @@ body {
 .body-left,
 .body-right {
 	padding: 10px;
-}
-input {
-	border: black;
-	border-bottom: x;
+	height: 70%;
 }
 .body-left p {
 	font-size: 18px;
 }
 input {
+	font-family: "Handlee", cursive;
 	border: none;
 	border-bottom: 1px gray solid;
+	margin-bottom: 10px;
 }
 .postcard-footer {
 	text-align: center;
+	padding: 10px;
 }
 button {
+	font-family: "Handlee", cursive;
 	background-color: darkgray;
-	padding: 5px;
+	margin-bottom: 20px;
 }
